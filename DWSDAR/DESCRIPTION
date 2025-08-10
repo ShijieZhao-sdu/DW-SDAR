@@ -1,0 +1,16 @@
+Package: DWSDAR
+Title: Dynamic Weighted SDAR for High-Dimensional Survival DTRs
+Version: 1.0.0
+Authors@R: c(
+    person("Shijie", "Zhao", role = c("aut", "cre"), email = "1328514709@qq.com"),
+    person("Wei", "Zhao", role = "aut", email = "wzhao92@sdu.edu.cn"))
+Description: Implements the DW-SDAR algorithm for estimating optimal dynamic treatment 
+    regimes in high-dimensional accelerated failure time models with multi-stage 
+    survival outcomes and censored data, as described in Zhao & Zhao (2025).
+License: GPL-3
+Depends: R (>= 3.6.0)
+Imports: ASDAR, survival
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+
